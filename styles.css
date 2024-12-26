@@ -1,0 +1,168 @@
+
+/* nav bar */
+
+.nav {
+  display: flex;
+  background-color: rgb(255, 106, 7);
+  color: black;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: black;
+}
+
+.col-4 {
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+.image {
+  height: 320px;
+  width: 100%;
+}
+
+
+.logo {
+  height: 80px;
+  width: 90px;
+}
+
+.icons {
+  display: flex;
+  width: 60%; 
+  justify-content: space-between;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.searchicon {
+  position: absolute;
+  margin-right: 180px;
+}
+
+.search {
+  width: 60px;
+  height: 30px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: rgb(217, 215, 215);
+}
+
+.bar {
+  width:180px;
+  height: 30px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 16px;
+}
+
+.col-12 {
+  display: felx;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+.text {
+  position: absolute;
+  font-size: 42px;
+  font-weight: bolder;
+  color: whitesmoke;
+  padding-left: 4%;
+  
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+.buttons {
+  border-radius: 6px;
+  background-color: rgb(66, 66, 66);
+  color:azure;
+  font-weight: 500;
+  margin-left: 130px;
+  margin-top: 20px;  
+}
+
+.img {
+  width: 200px;
+}  
+
+.col-3 {
+  font-size: 13px;
+}
+
+.price {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+.view {
+  background-color: rgb(240, 134, 19);
+  color: white;
+}
+
+.accessories-item{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.our-brands {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 28px;  
+}
+
+.brands {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+.brand-img {
+  width: 200px;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+span {
+  font-weight: 500;
+}
+
